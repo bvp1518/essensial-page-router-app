@@ -1,4 +1,6 @@
-import { MongoClient, ObjectId } from "mongodb";
+import { MongoClient } from "mongodb";
+const { ObjectId } = require('mongodb');
+
 
 import MeetupDetail from "@/components/meetups/MeetupDetail";
 import { Fragment } from "react";
